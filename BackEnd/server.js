@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 mongoose.connect(
-  `mongodb+srv://duni:a6CCDB0ohVtTMCqa@cluster0.r7tki.mongodb.net/?retryWrites=true&w=majority`, 
+  `<Give Your Mongo Server>`, 
     {
       useNewUrlParser: true,
       useUnifiedTopology: true
