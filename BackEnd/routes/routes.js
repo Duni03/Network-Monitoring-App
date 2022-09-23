@@ -422,8 +422,8 @@ app.post("/sendemail", async (request, response) => {
     nodemailer.createTransport({
         service: "gmail",
         auth: {
-          user: "randomuser2205@gmail.com",
-          pass: "idmihkahuiqbsyzp",
+          user: "<Give Your Email>",
+          pass: "Give 2 Auth Key",
         },
         port: 465,
         host: "smtp.gmail.com",
