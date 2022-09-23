@@ -1,6 +1,9 @@
 # Network-Monitoring-App
 
 ## Setup
+
+Add your Mongo Server in ../BackEnd/Server.js and in Monitor.py
+
 To run this App, install it locally using npm:
 For Front End
 ```
