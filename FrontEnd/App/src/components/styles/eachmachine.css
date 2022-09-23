@@ -1,0 +1,68 @@
+.main{
+    margin: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+    background-color: rgb(213, 203, 243);
+}
+.machine-head1{
+    position: relative;
+    border-radius: 25px;
+    width: 100%;
+    padding: 20px;
+    background-color: #F9F9F9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.each-machine{
+    padding: 12px;
+}
+.each-domain{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.status{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.domain-table{
+    width: 100%;
+    border: solid;
+    border-radius: 10px;
+}
+.each1{
+    width: 750px;
+    border: solid 1px;
+    padding: 10px;
+}
+.each2{
+    width: 350px;
+    border: solid 1px;
+    padding: 10px;
+}
+.warning{
+    margin-left: 30%;
+    border-radius: 25px;
+    width: 550px;
+    padding: 20px;
+    background-color: #F9F9F9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.graphing{
+    border-radius: 25px;
+    width: 550px;
+    padding: 20px;
+    background-color: #F9F9F9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mailing{
+    margin-left: 17%;
+    border-radius: 25px;
+    width: 900px;
+    padding: 20px;
+    background-color: #F9F9F9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

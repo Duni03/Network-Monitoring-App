@@ -1,0 +1,13 @@
+.mb-3{
+    width: 650px;
+    position: relative;
+    top: 15vh;
+    left: 30vw;
+    background-color: aquamarine;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.b{
+    padding-top: 10px;
+}

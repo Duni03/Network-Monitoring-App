@@ -1,0 +1,17 @@
+.Machine{
+    margin: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    border-radius: 25px;
+    background-color: rgb(213, 203, 243);
+}
+
+.MachineForm{
+    padding: 12px;
+}
+
+.status1{
+    position: absolute;
+    right: 50px;
+}

@@ -1,0 +1,16 @@
+.Domain{
+    margin: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    border-radius: 25px;
+    background-color: rgb(213, 203, 243);
+}
+.Domain-in{
+    padding: 12px;
+}
+.domain-delete{
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+}
