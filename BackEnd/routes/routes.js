@@ -66,7 +66,7 @@ app.post("/login", async (request, response) => {
     if (!n || !(await bcrypt.compare(request.body.password, n.password))) {
       response.send("Invalid Email or Password");
     } else {
-      var token = jwt.sign({ Email: n.Email, _id: n._id }, "thisissecret", {
+      var token = jwt.sign({ Email: n.Email, _id: n._id }, "<Enter your secret>", {
         expiresIn: "1h",
       });
       // response.status(200).json({"Email":n.Email,_id: n._id,"token":token});
@@ -92,7 +92,7 @@ app.get("/users", authing, async (request, response, next) => {
 //       if(!request.cookies["token"]){
 //         throw new Error("Unauthorized");
 //     ``}
-//       const t = jwt.verify(request.cookies["token"], "thisissecret");
+//       const t = jwt.verify(request.cookies["token"], "<Enter Your Secret>");
 //       console.log(t);
 //       var n =await userModel.findOne({ _id: t._id});
 //       if(n){
@@ -259,7 +259,7 @@ app.get("/traffic",async (request,response)=>{
 app.get("/localdevices", async (request, response) => {
   const data = [];
   try {
-    find({ address: '192.168.137.1-192.168.137.254' }).then(devices => {
+    find({ address: '0.0.0.0-255.255.255.254' }).then(devices => {
       console.log(devices); 
       data.push(devices);
       response.send(devices);
